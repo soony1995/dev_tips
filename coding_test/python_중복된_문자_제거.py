@@ -2,7 +2,7 @@
 
 >> string 의 각 인덱스별로 dict 타입으로 변환하고 싶을 때 사용하는 키워드 
 
-1. dict.fromkeys(my_string) 
+1. dict.fromkeys(my_string)
 
 입력값 〉
   	"people"
@@ -12,6 +12,9 @@
 	실행한 결괏값 ""이 기댓값 "peol"과 다릅니다.
 출력 〉
     {'p': None, 'e': None, 'o': None, 'l': None}
+
+    -> None은 파이썬에서 존재하는 타입으로 유일 타입이다. 
+    -> value 값을 conut 용도로 쓴다고 한다면 dict.fromkeys(my_string,0) 으로 초기화 해줘야 한다.
 
 2. dict 타입을 string 타입으로 변환. ''.join()메서드 이용.
 
